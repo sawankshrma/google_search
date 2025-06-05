@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="style_2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+   
+    <body>
+       <p id="links"> <a href = "index.html">Google Search</a></p> 
+
+        <!-- A "Google" text to match the original webpage vibe -->
+        <div style="font-family: 'Poppins', sans-serif; font-size: 100px; margin-top:170px; margin-bottom:35px; color: white; text-align: center;">Google</div>
+
+        <div>
+            <form action="https://www.google.com/search" autocomplete="off" method="GET" role="search">
+
+                    <div id="search_box">  
+                        <input type="text" name="q"  placeholder=" image Search"> <!-- name = "q" : for the input text to be recognisged as a query -->
+                    </div>
+
+                    <div id="buttons_div">
+                        <!-- name = "tbm" & value="isch" : for google image search -->
+                        <button  class = "button" type="submit" name = "tbm" & value="isch">image Search</button>
+                    </div>
+                        
+            </form> 
+         </div>
+
+    </body>
+</html>

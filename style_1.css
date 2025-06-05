@@ -1,0 +1,75 @@
+    body {
+        background: #242428;
+    }    
+
+    a{
+        padding-right:18px;
+        padding-top:10px;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    #links{
+        text-align : right;
+    }
+
+
+    #search_box{
+        display:flex;
+        justify-content: center;
+        margin-top:1px;
+        margin-bottom:15px;
+     }      
+
+     #search_box > input {
+
+        padding-left: 30px;
+        padding-right: 20px;
+
+        font-family: Arial, sans-serif; font-size: 16px; 
+        color: white;
+
+        height : 48px;
+        border-radius: 30px;
+        border: 0.5px solid transparent;
+        background: #4e4e52;
+            
+        width: 80%;
+        max-width: 600px;    
+    }
+
+    #search_box > input:hover {
+        background-color: #636366;
+    }
+
+    #buttons_div{
+        text-align : center;
+     }
+    
+    .button{
+        display: inline-block; 
+
+        padding: 12px 20px;
+        border-radius: 9px;
+        border: none;  
+        color: white;
+        font-size: 15px;   
+        background-color: #323236;
+        text-align: center;
+        width: 150px;
+     }
+
+    .button:hover {
+        border: 0.2px solid white;     
+     }
+
+    #lucky_button {
+        width: 170px;  /* extra width for the "feeling lucky" button */
+    }
+           
+            

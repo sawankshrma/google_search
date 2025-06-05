@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style_1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <p id="links"><a href = "image.html">image-Search</a><a href = "advanced.html">advanced-Search</a> </p> 
+
+        <!-- A "Google" text to match the original webpage vibe -->
+        <div style="font-family: 'Poppins', sans-serif; font-size: 100px; margin-top:170px; margin-bottom:35px; color: white; text-align: center;">Google</div>
+
+        <div>
+            <form action="https://www.google.com/search" autocomplete="off" method="GET" role="search">
+
+                    <div id="search_box">  
+                        <input type="text" name="q"  placeholder=" Search Google or type a URL"> <!-- name = "q" : for the input text to be recognisged as a query -->
+                    </div>
+                    
+                    <div id="buttons_div">
+                        <!-- name = "searchType" : for normal google search -->
+                        <button  class = "button" type="submit" name="searchType">Google Search</button>
+                        <!-- name = "btnl" : for going to first search result-->
+                        <button  class = "button" id="lucky_button" type="submit" name="btnI">I'm Feeling Lucky</button>
+                    </div>
+                        
+            </form> 
+         </div>
+
+    </body>
+</html>
